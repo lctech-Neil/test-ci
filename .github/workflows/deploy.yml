@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+name: deploy
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, 'chore')"
+    steps:
+      - run: echo "The head of this PR starts with 'chore/'"
