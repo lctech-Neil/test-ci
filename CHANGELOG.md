@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/lctech-Neil/test-ci/compare/v1.0.0...v1.1.0) (2022-08-22)
+
+
+### Features
+
+* new ci ([a4215ff](https://github.com/lctech-Neil/test-ci/commit/a4215ff8419ad6ea2eac4034344f2386736f261c))
+
 ## 1.0.0 (2022-08-22)
 
 
